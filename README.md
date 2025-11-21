@@ -6,9 +6,8 @@ Small LLVM Function Pass (new pass manager) that replaces integer multiplication
 - `passes/StrengthReduction.cpp` — the pass implementation (new pass manager plugin)
 - `test/input.ll` — sample IR to test the pass
 - `CMakeLists.txt` — build script using LLVM CMake config
-- `.github/workflows/ci.yml` — optional CI to build and run the pass on Ubuntu
-- `.vscode/tasks.json` — optional VS Code tasks (configure + build)
-- `NVIDIA 6M Spring - LLVM Compiler Intern JD.pdf` — your uploaded job description (for reference)
+- `workflows/ci.yml` — optional CI to build and run the pass on Ubuntu
+- `tasks.json` — optional VS Code tasks (configure + build)
 - `.gitignore` — standard ignores for build artifacts
 
 ## Quick build & run (WSL / Ubuntu)
